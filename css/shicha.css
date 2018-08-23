@@ -1,0 +1,59 @@
+/*视差*/
+.photo {
+	background-attachment:fixed; /*图固定*/
+	background-position:center;
+	background-repeat:no-repeat;
+	height: 1000px;/*显示图片的宽度*/
+	position: relative;
+}
+
+
+.photo p{
+	color: white;
+	display: block;
+	font-size: 1rem;
+	padding: 10px;
+	position: relative;
+}
+.photo div{
+	color: white;
+	display: block;
+	font-size: 1rem;
+	padding: 10px;
+	position: relative;
+}
+.picture1 {
+	background-image: url(../img/header-model1.jpg);
+}
+.picture2 {
+	background-image: url(../img/aventador.jpg);
+}
+.picture3 {
+	background-image: url(../img/URUS-header.jpg);
+}
+.navbar {
+	background-color: transparent;
+}
+
+.top-nav-collapse {
+	background-color: #3E4551;
+}
+.carousel,
+.carousel-item,
+.carousel-item.active {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel .carousel-item video {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
